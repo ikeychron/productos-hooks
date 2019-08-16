@@ -5,7 +5,7 @@ const Header = () => (
 
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
     <div className="container">
-      <Link to="/productos" className="navbar-brand">React CRUD & Routing</Link>
+      <Link to="/" className="navbar-brand">React CRUD & Routing</Link>
 
       <ul className="navbar-nav mr-auto">
         <li className="nav-item" >

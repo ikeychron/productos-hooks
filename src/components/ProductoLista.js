@@ -19,7 +19,7 @@ function ProductoLista({producto, guardarRecargarProductos}) {
       if (result.value) {
 
         try {
-          const url = `http://localhost:4000/restaurant/${producto.id}`;
+          const url = `https://my-json-server.typicode.com/CarlosBarrios045/producto/restaurant/${producto.id}`;
 
           const resultado = await axios.delete(url);
           

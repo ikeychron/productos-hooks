@@ -45,7 +45,7 @@ function EditarProducto(props) {
     console.log(editarPlatillo);
 
     // Enviar el request
-    const url = `http://localhost:4000/restaurant/${producto.id}`;
+    const url = `https://my-json-server.typicode.com/CarlosBarrios045/producto/restaurant/${producto.id}`;
 
     try {
       const resultado = await axios.put(url, editarPlatillo);

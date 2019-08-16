@@ -20,7 +20,7 @@ function App() {
       const consultarAPI = async () => {
 
         // Consultar la API de JSON Server
-        const resultado = await axios.get('http://localhost:4000/restaurant');
+        const resultado = await axios.get('https://my-json-server.typicode.com/CarlosBarrios045/producto/restaurant');
         
         guardarProductos(resultado.data);
   
@@ -78,8 +78,17 @@ function App() {
               }} 
 
             />
+
+            <div>
+              <h1 className="text-center">CRUD - Productos</h1>
+              <h2 className="text-center">React Hooks</h2>
+
+            </div>
+            
           </Switch>
         </main>
+
+        
         <p className="mt-4 p-2 text-center">Todos los Derechos Reservados.</p>
       </Router>
   );
