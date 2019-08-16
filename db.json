@@ -1,0 +1,22 @@
+{
+  "restaurant": [
+    {
+      "nombrePlatillo": "Jugo de frutas",
+      "precioPlatillo": "80",
+      "categoria": "bebida",
+      "id": 3
+    },
+    {
+      "nombrePlatillo": "Ensalada de pollo",
+      "precioPlatillo": "150",
+      "categoria": "ensalada",
+      "id": 5
+    },
+    {
+      "nombrePlatillo": "Jugo de naranja",
+      "precioPlatillo": "50",
+      "categoria": "bebida",
+      "id": 6
+    }
+  ]
+}
